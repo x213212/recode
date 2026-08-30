@@ -1,0 +1,188 @@
+[
+  {
+    "label": "defaultdict",
+    "insertText": "defaultdict(${1:list})",
+    "detail": "collections.defaultdict｜預設值字典",
+    "kind": "function"
+  },
+  {
+    "label": "Counter",
+    "insertText": "Counter(${1:items})",
+    "detail": "collections.Counter｜次數統計",
+    "kind": "function"
+  },
+  {
+    "label": "deque",
+    "insertText": "deque(${1})",
+    "detail": "collections.deque｜雙向佇列",
+    "kind": "function"
+  },
+  {
+    "label": "OrderedDict",
+    "insertText": "OrderedDict()",
+    "detail": "collections.OrderedDict｜維持順序的字典",
+    "kind": "function"
+  },
+  {
+    "label": "heapq",
+    "insertText": "heapq",
+    "detail": "heapq｜min heap module",
+    "kind": "module"
+  },
+  {
+    "label": "bisect_left",
+    "insertText": "bisect_left(${1:items}, ${2:target})",
+    "detail": "bisect_left｜第一個 >= target 的位置",
+    "kind": "function"
+  },
+  {
+    "label": "cache",
+    "insertText": "cache",
+    "detail": "functools.cache｜遞迴記憶化 decorator",
+    "kind": "function"
+  },
+  {
+    "label": "lru_cache",
+    "insertText": "lru_cache(${1:None})",
+    "detail": "functools.lru_cache｜有限或無限記憶化",
+    "kind": "function"
+  },
+  {
+    "label": "cmp_to_key",
+    "insertText": "cmp_to_key(${1:compare})",
+    "detail": "functools.cmp_to_key｜把比較函式轉成排序 key",
+    "kind": "function"
+  },
+  {
+    "label": "gcd",
+    "insertText": "gcd(${1:a}, ${2:b})",
+    "detail": "math.gcd｜最大公因數",
+    "kind": "function"
+  },
+  {
+    "label": "inf",
+    "insertText": "inf",
+    "detail": "math.inf｜正無限大",
+    "kind": "constant"
+  },
+  {
+    "label": "random",
+    "insertText": "random",
+    "detail": "random｜隨機工具 module",
+    "kind": "module"
+  },
+  {
+    "label": "List",
+    "insertText": "List",
+    "detail": "typing.List｜list 型別提示",
+    "kind": "type"
+  },
+  {
+    "label": "Optional",
+    "insertText": "Optional",
+    "detail": "typing.Optional｜可為 None 的型別",
+    "kind": "type"
+  },
+  {
+    "label": "Dict",
+    "insertText": "Dict",
+    "detail": "typing.Dict｜dict 型別提示",
+    "kind": "type"
+  },
+  {
+    "label": "Set",
+    "insertText": "Set",
+    "detail": "typing.Set｜set 型別提示",
+    "kind": "type"
+  },
+  {
+    "label": "Tuple",
+    "insertText": "Tuple",
+    "detail": "typing.Tuple｜tuple 型別提示",
+    "kind": "type"
+  },
+  {
+    "label": "ListNode",
+    "insertText": "ListNode",
+    "detail": "LeetCode linked list node",
+    "kind": "type"
+  },
+  {
+    "label": "TreeNode",
+    "insertText": "TreeNode",
+    "detail": "LeetCode binary tree node",
+    "kind": "type"
+  },
+  {
+    "label": "Node",
+    "insertText": "Node",
+    "detail": "LeetCode graph／tree node",
+    "kind": "type"
+  },
+  {
+    "label": "heappush",
+    "insertText": "heappush(${1:heap}, ${2:item})",
+    "detail": "heapq.heappush｜加入 heap",
+    "kind": "method"
+  },
+  {
+    "label": "heappop",
+    "insertText": "heappop(${1:heap})",
+    "detail": "heapq.heappop｜取出 heap 最小值",
+    "kind": "method"
+  },
+  {
+    "label": "heapify",
+    "insertText": "heapify(${1:items})",
+    "detail": "heapq.heapify｜原地轉成 heap",
+    "kind": "method"
+  },
+  {
+    "label": "heapreplace",
+    "insertText": "heapreplace(${1:heap}, ${2:item})",
+    "detail": "heapq.heapreplace｜取出後加入",
+    "kind": "method"
+  },
+  {
+    "label": "nlargest",
+    "insertText": "nlargest(${1:k}, ${2:items})",
+    "detail": "heapq.nlargest｜取最大的 k 個",
+    "kind": "method"
+  },
+  {
+    "label": "choice",
+    "insertText": "choice(${1:items})",
+    "detail": "random.choice｜隨機選一個",
+    "kind": "method"
+  },
+  {
+    "label": "randint",
+    "insertText": "randint(${1:left}, ${2:right})",
+    "detail": "random.randint｜隨機整數",
+    "kind": "method"
+  },
+  {
+    "label": "popleft",
+    "insertText": "popleft()",
+    "detail": "deque.popleft｜從左邊取出",
+    "kind": "method"
+  },
+  {
+    "label": "appendleft",
+    "insertText": "appendleft(${1:item})",
+    "detail": "deque.appendleft｜從左邊加入",
+    "kind": "method"
+  },
+  {
+    "label": "move_to_end",
+    "insertText": "move_to_end(${1:key})",
+    "detail": "OrderedDict.move_to_end｜移到尾端",
+    "kind": "method"
+  },
+  {
+    "label": "popitem",
+    "insertText": "popitem(last=${1:False})",
+    "detail": "OrderedDict.popitem｜依順序移除一組",
+    "kind": "method"
+  }
+]

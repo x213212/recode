@@ -1,0 +1,4 @@
+interface:
+  display_name: "RECODE Problem Author"
+  short_description: "Generate validated RECODE explanations and Python solutions"
+  default_prompt: "Use $recode-problem-author to create a validated RECODE problem package from this problem statement."

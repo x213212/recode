@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "generatedFrom": "Example bundle shipped with the repository",
+  "total": 1,
+  "categories": [
+    "陣列與 Hash"
+  ],
+  "sources": [
+    "Demo set"
+  ],
+  "problems": [
+    {
+      "id": "demo-01",
+      "order": 1,
+      "identity": "D1",
+      "title": "均衡切點",
+      "category": "陣列與 Hash",
+      "difficulty": "easy",
+      "sources": [
+        "Demo set"
+      ],
+      "testCount": 3,
+      "runnable": true
+    }
+  ]
+}
