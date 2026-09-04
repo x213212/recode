@@ -2,18 +2,22 @@
 
 RECODE is a local-first algorithm recall trainer built with Next.js. It combines a bilingual problem workspace, a browser-side Python runner, structured explanations, submission history, and FSRS-based review scheduling.
 
-提供繁中／英文題目切換、Python 編輯器、測資執行、錯誤分析、Speed／Repeat 模式與本機 SQLite 進度保存。**題庫不隨附**：倉庫內含一題完整範例與作題 skill，其餘由你自行撰寫或匯入（原因見 `NOTICE.md`）。
+Problem statements switch between Traditional Chinese and English. It ships a Python
+editor, a test-case runner, failure analysis, Speed/Repeat drilling modes, and keeps
+progress locally in SQLite. **No problem set is bundled** — one complete worked example
+and an authoring skill are included, and the rest are yours to write or import (see `NOTICE.md` for why).
 
-## 畫面
+## Screenshot
 
-![RECODE 工作區：左側題目與個人筆記，右側 Monaco 編輯器、歷史提交與測資結果](docs/images/workspace.jpg)
+![The RECODE workspace: problem and personal notes on the left, Monaco editor, submission history and test results on the right](docs/images/workspace.jpg)
 
-上圖是倉庫附帶的範例題 `D1 均衡切點` —— 這一題是為本倉庫撰寫的，不含任何判題網站的文字（見 `NOTICE.md`）。畫面上可以看到：
+Above is the bundled example problem `D1 均衡切點` — written for this repository, so it
+carries no judge site's text (see `NOTICE.md`). Visible in the shot:
 
-- 上方是練習模式：**引導 / 自由 / 探險 / Speed / Repeat / 模擬面試**，以及當日特訓進度
-- 左欄是題目、每題獨立的 Markdown 筆記，以及可展開的結構化題解
-- 右欄是 Monaco 編輯器、歷史提交，與測資執行結果；Python 由 Pyodide 在瀏覽器內執行，不經過任何伺服器
-- 底部狀態列顯示 FSRS-7 排程狀態與本輪通過／失敗統計
+- Top: practice modes — **Guided / Free / Explore / Speed / Repeat / Mock interview** — and the day's training progress
+- Left column: the problem, a per-problem Markdown note, and an expandable structured explanation
+- Right column: the Monaco editor, submission history and test results. Python runs in the browser through Pyodide; nothing is sent to a server
+- Status bar: FSRS-7 scheduling state and this session's pass/fail counts
 
 ## Features
 
